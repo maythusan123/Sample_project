@@ -1,0 +1,290 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.header{
+
+    width: 100%;
+
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(35,35,35,0.75), rgba(21,21,21,0.75)), url(images/pizza.png) ;
+
+    background: cover;
+
+    background-position: center;
+
+}
+
+
+
+.navbar{
+
+    width: 100%;
+
+ /*   margin: auto; */
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 0;
+
+}
+
+
+
+.navbar ul li{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    margin: 0 30px;
+
+}
+
+
+
+.navbar ul li a{
+
+    text-decoration: none;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+
+
+.navbar ul li a:hover{
+
+    width: 40px;
+
+    height: 20px;
+
+    background-color: brown;
+
+}
+
+.content{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: right;
+}
+
+.content h1{
+    font-size: 50px;
+    /*margin-top: 80px;*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comtent p{
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: white;
+    
+}
+
+button{
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px;
+    font-weight: bold;
+    border: 2px solid grey;
+    background: transparent;
+    color: bisque;
+
+}
+
+
+button:hover{
+    background-color: red;
+    box-shadow: -1px 2px 10px 1px grey;
+}
+
+/*content section*/
+
+.main-content{
+    background-color: paleturquoise;
+    width: 100%;
+}
+
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0;
+    font-family: sans-serif;
+    font: 2.2em;
+}
+
+.main-content hr{
+    width: 10%;
+    margin: auto;
+    border-top: 3px solid rgb(90,42,9);
+}
+.content-section{
+
+
+    padding: 0 80px;
+
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.content-section col{
+
+    text-align: center;
+
+    margin-top: 0 20px;
+
+}
+
+.pic{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.content-section h3{
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Footer 2*/
+
+div{
+    display: block;
+}
+
+.footer{
+ 
+    background-color: #A2B38B;
+    color: #e7ef92;
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer div h3{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.footer .col-1 a{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    color: #FAFDD6;
+    margin-bottom: 5px }
+
+.footer .col-2{
+    flex-grow: 0.5;
+}
+
+.footer .col-3 a{
+    text-decoration: none;
+    color: white;
+}
+
+form input{
+
+    width: 400px;
+    
+    height: 40px;
+    
+    border-radius: 5px;
+    
+    border: none;
+    
+    outline: none;;
+    
+    text-align: center;
+    
+    margin-bottom: 40px;
+    
+    }
+    
+    form button{
+    
+    padding: 10px 30px;
+    
+    border: 2px solid #fff;
+    
+    border-radius: 30px;
+    
+    background: transparent;
+    
+    color: #363062;
+    
+    font-size: 15px;
+    
+    }
+
+    .social i{
+        font-size: 22px;
+        margin: 0 10px 0;
+        
+    }
+
+    .social_links{
+        margin-top: 30px;
+    }
+    
+    .social :hover{
+        color: darkcyan;
+    }
+
+
+    .footer-bottom{
+
+        background: #d5f6a6;
+    
+        width: 50vw;
+    
+        text-align: center;
+    
+        padding: 20px 0;
+    
+    
+    }
+    
+
+    
+    
+    
+
